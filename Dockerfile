@@ -4,12 +4,12 @@ WORKDIR /project
 
 RUN conda install numpy \
     pandas \
-    tensorflow \
     ipykernel \
     jupyterlab \
     scikit-learn \
     matplotlib
 
+RUN pip install tensorflow
 
 COPY ./notebooks/ /project/notebooks
 COPY ./data/ /project/data 

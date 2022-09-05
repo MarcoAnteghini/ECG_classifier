@@ -16,12 +16,12 @@ First install Docker. Instruction available at https://www.docker.com/
 
 sudo docker build -t IMAGENAME:label .
 
-sudo docker run IMAGENAME:label
+sudo docker run --rm -it -p 8888:8888 IMAGENAME:label
 
 ### Example:
 sudo docker build -t jupyterlab:task_wa31 . 
 
-sudo docker run jupyterlab:task_wa31
+sudo docker run --rm -it -p 8888:8888 jupyterlab:task_wa31
 
 
 

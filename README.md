@@ -9,10 +9,11 @@
 
 ## USAGE:
 
-First install Docker. Instruction available at https://www.docker.com/
+1. First install Docker. Instruction available at https://www.docker.com/
+2. Download the dataset at https://drive.google.com/drive/folders/1blcSZZ_gLCY0RzsWr04wVsUIWKo4HDBh
 
 
-### Build and execute the container:
+### 3. Build and execute the container:
 
 sudo docker build -t IMAGENAME:label .
 

@@ -9,8 +9,7 @@
 
 ## USAGE:
 
-1. First install Docker. Instruction available at https://www.docker.com/
-2. Make sure to execute the Dockerfile in the same directory containing all the other files present in this repository, otherwise change the paths in the notebooks.
+First install Docker. Instruction available at https://www.docker.com/
 
 
 ### Build and execute the container:

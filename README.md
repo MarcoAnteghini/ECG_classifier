@@ -12,7 +12,7 @@
 2. Make sure to execute the Dockerfile in the same directory containing all the other files present in this repository, otherwise change the paths in the notebooks.
 
 
-### Build and execute the container
+### Build and execute the container:
 
 sudo docker build -t IMAGENAME:label .
 

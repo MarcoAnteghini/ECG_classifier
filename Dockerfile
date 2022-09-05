@@ -13,8 +13,8 @@ RUN conda install numpy \
 
 COPY ./notebooks/ /project/notebooks
 COPY ./data/ /project/data 
-COPY ./models/ project/models/
-COPY ./functions.py project/
+COPY ./models/ /project/models/
+COPY ./functions.py /project/
 
 CMD ["jupyter-lab","--ip=0.0.0.0","--no-browser","--allow-root"]
 
